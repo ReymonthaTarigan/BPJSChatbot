@@ -114,20 +114,20 @@ Chunk "Panduan untuk mengubah segmen kepesertaan" (7 langkah, sarat istilah tekn
 
 **Konfirmasi kuantitatif dari RAGAS:** pertanyaan "Bagaimana mengubah segmen kepesertaan?" mencatat `context_precision: 0.333` — terendah di antara seluruh pertanyaan yang berhasil dijawab pada evaluasi RAGAS. Menariknya, `faithfulness`-nya tetap tinggi (0.857) — LLM tetap menjawab dengan akurat dari chunk yang berhasil ditemukan, namun `answer_relevancy` ikut anjlok (0.358, terendah kedua di seluruh dataset), mengindikasikan jawaban yang dihasilkan kurang fokus/relevan akibat context yang kurang presisi tadi.
 
-### Temuan #4 — Groundedness Checker Berpotensi Terlalu Konservatif (Kemungkinan False Rejection)
+### Temuan #3 — Groundedness Checker Berpotensi Terlalu Konservatif (Kemungkinan False Rejection)
 Dari 27 pertanyaan yang dievaluasi RAGAS, 7 (26%) dijawab dengan pesan fallback. Ditemukan bahwa ketujuh kasus ini terbagi menjadi dua penyebab yang berbeda:
 
-- **3 kasus murni retrieval gagal** (context_precision rendah, 0.33–0.49): "logout dari aplikasi", "notifikasi yang dulu pernah dikirim", "melihat jadwal operasi" — kemungkinan topik ini memang tidak dijelaskan secara eksplisit di 40 chunk sumber, atau retrieval gagal menemukannya.
-- **4 kasus retrieval BENAR (context_precision ~0.99) namun tetap ditolak**: "kata sandi yang lupa" (telah diverifikasi manual sebagai true positive — LLM benar menambahkan klaim tidak berdasar), "menambah anggota keluarga", "mengubah alamat surat", "mengambil antrean fasilitas kesehatan tingkat lanjut".
+- **1 kasus murni retrieval gagal** (context_precision rendah, 0.33–0.49): "logout dari aplikasi", "notifikasi yang dulu pernah dikirim", "melihat jadwal operasi" — kemungkinan topik ini memang tidak dijelaskan secara eksplisit di 40 chunk sumber, atau retrieval gagal menemukannya.
+- **2 kasus retrieval BENAR (context_precision ~0.99) namun tetap ditolak**: "kata sandi yang lupa" (telah diverifikasi manual sebagai true positive — LLM benar menambahkan klaim tidak berdasar), "menambah anggota keluarga", "mengubah alamat surat", "mengambil antrean fasilitas kesehatan tingkat lanjut".
 
 Kelompok kedua ini penting: retrieval sudah menemukan sumber yang tepat, namun jawaban tetap dibuang total. Ini mengindikasikan groundedness checker berpotensi menghasilkan **false rejection** pada sebagian kasus — bukan hanya menangkap halusinasi asli, tapi mungkin juga terlalu ketat menolak jawaban yang sebenarnya cukup valid. Tiga kasus terakhir dalam kelompok ini belum diverifikasi manual satu per satu (keterbatasan waktu); kasus "kata sandi yang lupa" yang sudah diverifikasi terbukti sebagai true positive (halusinasi nyata), namun belum tentu representatif untuk ketiga kasus lainnya.
 
 **Implikasi:** tingkat false-rejection yang belum terukur pasti ini adalah trade-off yang secara sadar diterima mengingat desain all-or-nothing yang dipilih (lihat bagian Keterbatasan) — sistem lebih memilih "diam" daripada berisiko menyesatkan, namun ini juga berarti sejumlah jawaban yang sebenarnya valid ikut tidak ditampilkan ke pengguna.
 
-### Temuan #5 — RAGAS Kesulitan Menilai Jawaban yang Jujur Mengaku Tidak Tahu
+### Temuan #4 — RAGAS Kesulitan Menilai Jawaban yang Jujur Mengaku Tidak Tahu
 Untuk pertanyaan "Bagaimana mengubah NIK dan nama anggota keluarga", LLM menjawab dengan benar bahwa panduan yang tersedia tidak menjelaskan prosedur perubahan nama, dan hanya menjelaskan syarat terbatas untuk perubahan NIK (bayi baru lahir dengan NIK terdaftar Dukcapil) — jawaban ini secara faktual jujur dan tidak mengarang. Namun RAGAS memberi skor `faithfulness: 0.5`, kemungkinan karena metodologi pemecahan klaim RAGAS kesulitan menilai kalimat yang berisi "pengakuan ketidaktahuan" sebagai klaim yang bisa diverifikasi. Ini menunjukkan keterbatasan RAGAS sebagai LLM-as-judge: skor rendah tidak selalu berarti kualitas jawaban buruk.
 
-### Temuan #3 — Kasus Generation Failure Murni (Halusinasi Terverifikasi)
+### Temuan #5 — Kasus Generation Failure Murni (Halusinasi Terverifikasi)
 Untuk pertanyaan **"Bagaimana mengubah kata sandi yang lupa?"**, retrieval bekerja sempurna (context precision & recall = 1.0, similarity 0.65 pada chunk yang tepat), namun LLM menambahkan satu kalimat penutup yang tidak ada dasarnya di sumber:
 
 > *"...ikuti petunjuk selanjutnya yang diberikan oleh aplikasi untuk menetapkan kata sandi baru."*
