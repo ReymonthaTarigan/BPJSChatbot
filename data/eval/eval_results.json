@@ -1,0 +1,281 @@
+{
+  "aggregate_scores": {
+    "faithfulness": 0.6983,
+    "answer_relevancy": 0.5601,
+    "context_precision": 0.8951,
+    "context_recall": 1.0
+  },
+  "total_questions_evaluated": 27,
+  "per_question_detail": [
+    {
+      "question": "Bagaimana cara masuk kedalam aplikasi MOBILE JKN?",
+      "answer": "Berikut cara masuk ke aplikasi **MOBILE JKN**:\n\n1. Buka aplikasi Mobile JKN, kemudian pada halaman awal pilih **Masuk/Daftar** yang berada di pojok kiri atas.  \n2. Pilih **Masuk**.  \n3. Pilih jenis identitas yang akan digunakan, masukkan **NIK/NOKA** sesuai pilihan, kemudian isi **Password** dan **Captcha**.  \n4. Klik **MASUK**.",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9532319704446713,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Bagaimana masuk Mobile JKN dengan fingerprint atau face recognition",
+      "answer": "Berikut cara masuk ke aplikasi Mobile JKN menggunakan **Fingerprint atau Face Recognition**:\n\n1. **Aktifkan login biometrik terlebih dahulu**  \n   - Masuk ke aplikasi Mobile JKN dengan cara biasa (Masuk → pilih jenis identitas, masukkan NIK/NOKA, password, dan captcha).  \n   - Setelah berhasil masuk, buka **Menu Profil**.  \n   - Pada pilihan **Login dengan Biometrik**, ubah status menjadi **ON**.  \n   - Akan muncul syarat dan ketentuan aktivasi; pilih **Setuju** dan lanjutkan.  \n   - Masukkan password login Anda untuk mengonfirmasi.  \n   - Tekan **Verification** button.  \n   - Masukkan kembali password untuk mendaftarkan biometrik.  \n   - Jika aktivasi berhasil, status **Login dengan Biometrik** akan berubah menjadi **ON**.\n\n2. **Gunakan fingerprint atau face recognition untuk login**  \n   - Pada halaman login aplikasi, di samping tombol **Sign In** terdapat tombol **sidik jari** (atau ikon face recognition).  \n   - Ketuk tombol tersebut.  \n   - Aplikasi akan memindai fingerprint atau wajah yang telah terdaftar pada perangkat Anda.  \n   - Jika pemindaian berhasil, Anda akan langsung masuk ke aplikasi tanpa perlu memasukkan password lagi.  \n\n> **Catatan:** Fitur login biometrik hanya dapat dipakai setelah langkah aktivasi (poin 1) selesai dan perangkat Anda sudah mendukung fingerprint atau face recognition.",
+      "scores": {
+        "faithfulness": 0.8,
+        "answer_relevancy": 0.9355934869625621,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Bagaimana mengubah kata sandi yang lupa?",
+      "answer": "Maaf, saya tidak yakin dengan jawaban untuk pertanyaan ini. Silakan cek panduan resmi Mobile JKN secara langsung.",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.0,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Bagaimana mendaftar sebagai pengguna baru Mobile JKN?",
+      "answer": "Berikut adalah langkah‑langkah mendaftar sebagai pengguna baru Mobile JKN:\n\n1. **Buka aplikasi Mobile JKN** dan tap tombol **Daftar**.  \n2. **Isi form pendaftaran** yang muncul dengan data berikut:  \n   a. Nomor Induk Kependudukan (NIK)  \n   b. Nama lengkap  \n   c. Tanggal lahir  \n   d. Captcha  \n3. Tap **Verifikasi Data**. Anda akan diarahkan ke form lanjutan pendaftaran.  \n4. **Masukkan nomor handphone** pada kolom yang disediakan, lalu tap **Kirim Kode Verifikasi**.  \n5. Pada halaman **Syarat dan Ketentuan**, centang checklist **Saya setuju**, kemudian tap **Selanjutnya**.  \n6. **Verifikasi OTP**: kode OTP yang dikirim ke handphone Anda harus dimasukkan ke dalam form verifikasi OTP.  \n7. Setelah semua data terisi dengan benar, tap **Registrasi**. Aplikasi akan mengarahkan Anda ke halaman utama; pada tahap ini status Anda belum terdaftar sebagai peserta JKN, namun proses pendaftaran akun sudah selesai.",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9760453280730648,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Bagaimana cara mengubah pin akun?",
+      "answer": "Berikut langkah‑langkah mengubah PIN akun Mobile JKN:\n\n1. Pada menu **Home**, arahkan tampilan ke bagian **Profile**, lalu tap **Profile**.  \n2. Setelah berada di menu **Profile**, tap **Ubah PIN**.  \n3. Masukkan PIN Anda saat ini, kemudian tap **Verifikasi**.  \n4. Masukkan PIN baru, tap **Verifikasi** lagi, lalu tap **Setuju**.  \n5. Akan muncul pop‑up yang memberitahukan bahwa PIN sudah berhasil diperbaharui.",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.693147652674219,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Bagaimana cara mengubah kata sandi akun?",
+      "answer": "Berikut langkah‑langkah mengubah kata sandi akun Mobile JKN:\n\n1. Pada menu **Home**, arahkan tampilan ke bagian **Profile**, kemudian tap **Profile**.  \n2. Setelah berada di menu **Profile**, tap **Ubah kata sandi**.  \n3. Isi formulir yang muncul dengan:  \n   - **Password lama**  \n   - **Password baru**  \n   - **Konfirmasi password baru**  \n   - **Captcha**  \n   Setelah semua terisi, tap **Simpan**.  \n4. Akan muncul pop‑up yang menyatakan “kata sandi berhasil diubah”. Anda kemudian akan diminta untuk **re‑login** ke Mobile JKN dengan kata sandi yang baru.",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.5989655568766715,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Bagaimana menyimpan akun yang sebelumnya sudah pernah login?",
+      "answer": "Berikut cara menyimpan akun yang sebelumnya sudah pernah login di aplikasi Mobile JKN:\n\n1. **Login ke aplikasi Mobile JKN** terlebih dahulu.  \n2. Buka **menu Profil**.  \n3. Pada halaman Profil, temukan fitur **“Simpan Data Username”**.  \n4. Aktifkan fitur tersebut dengan men‑tap tombol **Off/On** di sebelahnya (tap untuk mengaktifkan).  \n5. Setelah berhasil diaktifkan, pada **halaman login selanjutnya** data username (nomor kartu peserta) yang terakhir Anda gunakan akan otomatis terisi, sehingga Anda dapat login dengan cepat dan aman.",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.773792675482424,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Bagaimana cara mengaktifkan notifikasi Mobile JKN? ",
+      "answer": "Berikut cara mengaktifkan notifikasi pada aplikasi Mobile JKN:\n\n1. Masuk ke **menu Profil** di aplikasi.  \n2. Pada menu Profil, geser tombol (button) di baris **Notifikasi** ke posisi aktif.  \n3. Setelah itu, notifikasi Anda sudah berhasil diaktifkan.",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9592879802187779,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Bagaimana melihat notifikasi yang dulu pernah dikirim?",
+      "answer": "Maaf, saya tidak yakin dengan jawaban untuk pertanyaan ini. Silakan cek panduan resmi Mobile JKN secara langsung.",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.0,
+        "context_precision": 0.49999999995,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Bagaimana cara logout dari aplikasi Mobile JKN?",
+      "answer": "Maaf, saya tidak yakin dengan jawaban untuk pertanyaan ini. Silakan cek panduan resmi Mobile JKN secara langsung.",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.0,
+        "context_precision": 0.3333333333,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Bagaimana mendaftar sebagai peserta JKN?",
+      "answer": "Berikut langkah‑langkah mendaftar sebagai peserta JKN melalui aplikasi Mobile JKN:\n\n1. Pada halaman utama, **tap menu “pendaftaran peserta baru”.**  \n2. Baca syarat dan ketentuan yang diberikan oleh BPJS Kesehatan, lalu **tap “selanjutnya”.**  \n3. Masukkan **Nomor Kartu Keluarga (KK)** dan isi **Captcha**, kemudian **tap “lanjut”.**  \n4. **Tap “tambah”.**  \n5. Pada form pendaftaran peserta, isi data dengan hati‑hati, lalu **tap “simpan”.**  \n6. Pilih **kelas rawat inap**. Setelah dipilih, sistem otomatis menampilkan **Iuran per jiwa** dan **Iuran satu keluarga**.  \n7. Masukkan **email** dan **nomor telepon** untuk proses verifikasi.  \n8. Lakukan **verifikasi OTP**: masukkan kode OTP yang dikirim ke handphone, lalu **tap “verifikasi”.**  \n9. Setelah semua data terisi benar dan valid, **tap “selanjutnya”** hingga masuk ke halaman **persetujuan peserta**. Baca dengan teliti, lalu **tap “selanjutnya”.**  \n10. Pendaftaran berhasil. Anda akan menerima **informasi virtual account** untuk pembayaran tagihan peserta melalui email yang terdaftar, dan virtual account tersebut terintegrasi dengan Mobile JKN.",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8313617386097043,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Bagaimana menambah anggota keluarga sebagai peserta JKN?",
+      "answer": "Maaf, saya tidak yakin dengan jawaban untuk pertanyaan ini. Silakan cek panduan resmi Mobile JKN secara langsung.",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.0,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Bagaimana cek keaktifan dan informasi JKN anggota keluarga?",
+      "answer": "Berikut cara mengecek keaktifan dan informasi JKN anggota keluarga di aplikasi Mobile JKN:\n\n1. Pada halaman utama aplikasi, **tap menu “Info Peserta**”.  \n2. Setelah masuk ke menu tersebut, Anda akan melihat informasi peserta meliputi:\n   - Nama peserta  \n   - Status kepesertaan (aktif/tidak aktif)  \n   - Nomor JKN  \n   - Tanggal lahir  \n   - Tingkat fasilitas kesehatan  \n\nDengan langkah di atas, Anda dapat memeriksa status keaktifan serta data kepesertaan JKN seluruh anggota keluarga.",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8716011715568849,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Bagaimana cara pengguna melakukan pengaduan terhadap pelayanan JKN?",
+      "answer": "Berikut langkah‑langkah yang harus diikuti pengguna untuk mengadukan pelayanan JKN:\n\n1. Pilih menu **Pengaduan Layanan JKN**.  \n2. Pilih anggota keluarga yang ingin diajukan pengaduan, kemudian ketuk tombol **(+)** di pojok kanan bawah.  \n3. Akan muncul **Formulir Informasi dan Pengaduan**. Isi formulir tersebut, pilih kategori **Pengaduan Keluhan** atau **Permintaan Informasi** sesuai kebutuhan, lalu ketuk **Laporkan**.  \n4. Pengaduan yang telah dikirim akan muncul pada halaman **Pengaduan Layanan JKN**. Ketuk untuk melihat **Detail Aduan**.  \n5. Jika status masih **Open** (belum ditanggapi Kantor Cabang) dan masalah sudah teratasi, hapus pengaduan dengan menekan **Hapus Keluhan** pada detail, lalu konfirmasi dengan **Setuju**.  \n6. Setelah Kantor Cabang memberikan balasan, status akan berubah menjadi **Penanganan**. Ketuk untuk melihat tanggapan.  \n7. Untuk membalas tanggapan, ketuk tombol **Tanggapan**, isi pesan balasan, lalu tekan **Tanggapan** lagi untuk mengirim. Status akan berubah menjadi **Proses**.  \n8. Jika keluhan sudah teratasi, tutup pengaduan dengan menekan **Selesai**.  \n9. Status akhir akan menjadi **Closed**. (Jika tidak ada balasan atau penutupan oleh user, pengaduan otomatis berubah menjadi **Closed** setelah 5 hari.)",
+      "scores": {
+        "faithfulness": 0.95,
+        "answer_relevancy": 0.8873733705833127,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Bagaimana mengubah NIK dan nama anggota keluarga",
+      "answer": "**Mengubah NIK anggota keluarga**\n\n1. Perubahan NIK hanya dapat dilakukan untuk peserta **bayi baru lahir** yang NIK‑nya sudah terdaftar pada **Dukcapil**.  \n\n*(Tidak ada langkah‑langkah lebih lanjut yang dijelaskan dalam panduan yang tersedia.)*  \n\n**Catatan mengenai perubahan nama**\n\n- Panduan yang diberikan tidak memuat informasi tentang prosedur mengubah **nama** anggota keluarga.  \n\nJika Anda memerlukan detail lebih lanjut tentang cara mengubah nama, silakan merujuk ke sumber resmi lain atau menghubungi layanan bantuan Mobile JKN.",
+      "scores": {
+        "faithfulness": 0.5,
+        "answer_relevancy": 0.7779312065691268,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Bagaimana mengubah segmen kepesertaan?",
+      "answer": "Berikut langkah‑langkah mengubah segmen kepesertaan pada aplikasi Mobile JKN:\n\n1. **Pilih menu “Ubah Data Peserta”.**  \n   - Pada menu ini akan muncul pilihan baru “Segmen Peserta”. Pilihan ini hanya tampil untuk pengguna Mobile JKN yang memiliki segmen di luar PBPU.\n\n2. **Pilih “Segmen Peserta”.**  \n   - Pengalihan segmen hanya dapat dilakukan bila status peserta **Nonaktif Aktif di Akhir Bulan** (Nonaktif di Akhir Bulan dalam N+1, atau Nonaktif di Akhir Bulan lebih dari N+1).  \n   - Jika peserta pernah memiliki tunggakan PBPU sebelum pindah ke segmen PPU/PBI/PD Pemda, tunggakan tersebut harus dilunasi terlebih dahulu sebelum dapat pindah ke PBPU.\n\n3. **Daftarkan Autodebit (jika belum terdaftar).**  \n   - Pilih **Lanjut Pendaftaran Autodebit**.  \n   - Pilih bank atau non‑bank yang akan digunakan, kemudian isi Agreement Autodebit dan Formulir pendaftaran.  \n   - Tekan **Daftar Autodebit**, masukkan OTP yang dikirim ke nomor SMS Banking, dan selesaikan pendaftaran.\n\n4. **Lanjutkan ubah segmen.**  \n   - Setelah Autodebit berhasil, pilih **Lanjut Ubah Segmen**.  \n   - Isi formulir perubahan segmen, centang checklist persetujuan ubah segmen, lalu tekan **Simpan**.\n\n5. **Verifikasi perubahan.**  \n   - Sistem akan mengirimkan OTP ke email atau SMS peserta.  \n   - Masukkan OTP tersebut dan pilih **Verifikasi**.\n\n6. **Selesai.**  \n   - Peserta berhasil melakukan perubahan segmen kepesertaan (misalnya ke PBPU).  \n\n**Catatan tambahan:**  \n- Pengalihan segmen **PD Pemda ke PBPU** baru dapat dilakukan setelah peserta terdaftar minimal 1 tahun di PD Pemda yang sama, kecuali domisili/alamat Dati2 KTP sudah berbeda dengan Dati2 sesuai PKS PD Pemda.",
+      "scores": {
+        "faithfulness": 0.8571428571428571,
+        "answer_relevancy": 0.3578715537919122,
+        "context_precision": 0.3333333333,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Bagaimana mengubah nomor hp yang terdaftar?",
+      "answer": "Berikut langkah‑langkah mengubah nomor handphone pada aplikasi Mobile JKN:\n\n1. Pada layar **Home**, pilih **menu Lainnya**, kemudian tap fitur **“ubah data peserta”**.  \n   - Data peserta dalam satu keluarga akan muncul. Pilih data peserta yang ingin diganti nomor handphonenya.\n\n2. Tap bagian **No Handphone**. Sistem akan menampilkan pop‑up untuk mengisi nomor handphone yang baru.\n\n3. Masukkan **No Handphone** yang baru, lalu tap tombol **Simpan**.\n\n4. Setelah menekan **Simpan**, sistem secara otomatis mengirimkan **kode verifikasi** ke email peserta.  \n   - Buka email yang terdaftar, temukan kode verifikasi tersebut, lalu masukkan kode ke pop‑up yang muncul.\n\n5. Jika kode verifikasi berhasil, sistem akan menampilkan pesan pemberitahuan bahwa **perubahan data berhasil**.",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.42025215859182424,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Bagaimana mengubah email yang terdaftar?",
+      "answer": "Berikut langkah‑langkah mengubah email yang terdaftar pada aplikasi Mobile JKN:\n\n1. **Buka menu**: Tap **Home** → **Lainnya** → pilih fitur **“ubah data peserta”**.  \n2. **Pilih peserta** yang ingin diubah data emailnya (jika ada lebih dari satu anggota keluarga).  \n3. **Isi Form perubahan Email** dengan alamat email baru yang diinginkan.  \n4. **Tap “Verifikasi”**.  \n5. **Cek email** Anda untuk menerima kode atau tautan verifikasi yang dikirimkan.  \n6. **Tap “Simpan”** untuk menyimpan perubahan setelah verifikasi berhasil.",
+      "scores": {
+        "faithfulness": 0.8571428571428571,
+        "answer_relevancy": 0.7240272487372992,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Bagaimana mengubah fasilitas kesehatan tingkat pertama?",
+      "answer": "Berikut langkah‑langkah mengubah fasilitas kesehatan tingkat pertama (FKTP) pada aplikasi Mobile JKN:\n\n1. **Buka fitur ubah data peserta**  \n   - Tap **Home** → **Lainnya** → pilih fitur **“ubah data peserta”**.  \n   - Data peserta dalam satu keluarga akan muncul. Pilih peserta yang ingin diubah faskes‑nya.\n\n2. **Ubah Faskes 1**  \n   - Tap **Faskes 1**.  \n   - Sistem menampilkan popup untuk mengisi data Faskes 1 baru.  \n   - Isi data Faskes 1 yang diinginkan, lalu tap **Simpan**.  \n   - (Jika ingin mengubah secara kolektif untuk seluruh keluarga, centang checklist **“Perubahan satu keluarga”**. Checklist ini **tidak muncul** untuk peserta dengan segmen *Prajurit TNI* dan *Kepolisan RI Non‑PNS*; pada segmen tersebut hanya anggota keluarga yang dapat mengubah FKTP.)\n\n3. **Verifikasi perubahan**  \n   - Setelah menekan **Simpan**, sistem mengirimkan **kode verifikasi** ke email peserta dan menampilkan popup untuk memasukkan kode tersebut.  \n   - Masukkan kode verifikasi yang diterima.\n\n4. **Masukkan PIN**  \n   - Sistem selanjutnya meminta **PIN** yang telah dibuat oleh peserta. Masukkan PIN tersebut.\n\n5. **Selesai**  \n   - Notifikasi **sukses** perubahan data Faskes akan muncul setelah PIN berhasil diverifikasi.\n\n**Catatan penting**  \n- Segmen peserta yang dapat melakukan perubahan FKTP:  \n  PBPU, PPU‑PN, Prajurit TNI dan Kepolisian RI (hanya anggota keluarga), PPU Swasta, PBI, APBN, BP PN & BP Perorangan.  \n- Perubahan FKTP dapat dilakukan **maksimal 3 bulan** setelah peserta sebelumnya dipindahkan FKTP melalui proses *Redistribusi FKTP*; perubahan di luar rentang 3 bulan tidak dapat dilakukan.",
+      "scores": {
+        "faithfulness": 0.9444444444444444,
+        "answer_relevancy": 0.5706404882379891,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Bagaimana mengubah alamat surat yang terdaftar?",
+      "answer": "Maaf, saya tidak yakin dengan jawaban untuk pertanyaan ini. Silakan cek panduan resmi Mobile JKN secara langsung.",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.0,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Bagaimana mengubah kelas rawat?",
+      "answer": "Berikut langkah‑langkah mengubah kelas rawat pada aplikasi Mobile JKN:\n\n1. **Buka menu Home** → pilih **menu Lainnya** → tap fitur **“ubah data peserta”**.  \n   - Data peserta dalam satu keluarga akan otomatis muncul. Pilih peserta yang ingin diubah kelas rawatnya.\n\n2. **Pilih kelas rawat** yang diinginkan. Setiap kelas rawat memiliki perhitungan iuran per jiwa dan per keluarga yang otomatis akan disesuaikan.\n\n3. **Tap “Simpan”** setelah selesai memilih kelas rawat.\n\n4. Sistem akan meminta **verifikasi user** dengan memasukkan **PIN user**.\n\n5. Setelah verifikasi berhasil, akan muncul pop‑up yang memberitahukan bahwa **kelas rawat telah berhasil diubah**.",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.5681680759467685,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Bagaimana cara menampilkan KIS digital?",
+      "answer": "Berikut cara menampilkan KIS DIGITAL di aplikasi Mobile JKN:\n\n1. Pada halaman utama aplikasi, **tap** kartu peserta.  \n2. Anda akan otomatis dialihkan ke halaman kartu peserta, di mana KIS DIGITAL ditampilkan.",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.67992601927366,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Bagaimana mengirim KIS digital ke email yang terdaftar?",
+      "answer": "Berikut langkah‑langkah mengirim KIS DIGITAL ke email yang terdaftar:\n\n1. Pada halaman utama aplikasi, **tap kartu peserta**.  \n2. Anda akan diarahkan ke halaman kartu peserta. Di sana, pilih **tap “kirim email”** untuk mengirim KIS DIGITAL ke alamat email Anda.",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9898567714130055,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Bagaimana mengambil antrian pada fasilitas kesehatan tingkat pertama?",
+      "answer": "Berikut langkah‑langkah mengambil antrean pada fasilitas kesehatan tingkat pertama (Puskesmas, Klinik, Dokter Perorangan) melalui aplikasi Mobile JKN:\n\n1. **Buka aplikasi dan pilih Menu Home**.  \n   - Sub‑menu yang muncul akan menampilkan **Pendaftaran Pelayanan**.\n\n2. **Tap menu “Pendaftaran Pelayanan”**.  \n   - Halaman pendaftaran akan muncul, menampilkan daftar FKTP yang terdaftar (FKTP harus sudah terintegrasi dengan aplikasi Antrean Faskes dan jadwal praktiknya sudah di‑update oleh kantor cabang).  \n   - Pastikan peserta memiliki status **aktif**.\n\n3. **Pilih peserta** yang akan mengambil antrean, kemudian pilih **poli** yang akan diperiksa.\n\n4. **Tuliskan keluhan** yang dialami pada kolom yang disediakan (jika ada).\n\n5. **Tap tombol “Daftar Pelayanan”** untuk mendapatkan nomor antrean sesuai dengan poli yang dipilih.  \n   - Setelah mendaftar, lakukan **refresh** untuk melihat sisa antrean yang sedang dilayani di fasilitas tersebut.\n\n6. **Jika ingin membatalkan antrean**, tap tombol **“Batalkan”**.  \n   - Untuk mengambil antrean baru setelah pembatalan, tap tombol **“Ambil Antrean Baru”**.",
+      "scores": {
+        "faithfulness": 0.9444444444444444,
+        "answer_relevancy": 0.5799898215442228,
+        "context_precision": 0.49999999995,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Bagaimana mengambil antrian pada fasilitas kesehatan tingkat lanjut?",
+      "answer": "Maaf, saya tidak yakin dengan jawaban untuk pertanyaan ini. Silakan cek panduan resmi Mobile JKN secara langsung.",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.0,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Bagaimana melakukan konsultasi dengan dokter melalui Mobile JKN?",
+      "answer": "Berikut langkah‑langkah melakukan konsultasi dengan dokter melalui aplikasi Mobile JKN:\n\n1. **Tap ikon “Konsultasi Dokter”** yang berada di menu Home.  \n2. Pilih **“Mulai Konsultasi”** atau klik tombol biru di pojok kanan bawah untuk memulai percakapan.  \n3. Pilih dokter yang ingin Anda konsultasikan. Hanya dokter yang berstatus **online** yang dapat dipilih; dokter yang offline akan menampilkan jadwal online terdekatnya.  \n4. Sampaikan keluhan Anda sebagai pembuka percakapan, kemudian pilih **“Mulai Chat”** untuk membuat sesi chat.  \n5. Setelah konsultasi dirasa cukup, klik **“End”**. Anda akan diminta mengisi rating untuk sesi chat tersebut.  \n6. Beri penilaian dengan memilih jumlah bintang sesuai kepuasan dan tambahkan komentar, lalu klik **“Ya”**.  \n7. Akan muncul **Pop Up Notification** sebagai konfirmasi.  \n8. Untuk melihat riwayat sesi, masuk ke menu **Konsultasi Dokter**, klik tombol **“Riwayat”** di pojok kanan, lalu pilih sesi chat yang diinginkan untuk melihat detail percakapannya.",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.973281087625265,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Bagaimana melihat jadwal operasi saya?",
+      "answer": "Maaf, saya tidak yakin dengan jawaban untuk pertanyaan ini. Silakan cek panduan resmi Mobile JKN secara langsung.",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": -0.0,
+        "context_precision": 0.49999999995,
+        "context_recall": 1.0
+      }
+    }
+  ]
+}

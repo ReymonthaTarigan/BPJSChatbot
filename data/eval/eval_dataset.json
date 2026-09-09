@@ -1,0 +1,213 @@
+[
+  {
+    "question": "Bagaimana cara masuk kedalam aplikasi MOBILE JKN?",
+    "expected_chunk_id": "akun-mobile-jkn-000",
+    "ground_truth": "Buka Aplikasi Mobile JKN, maka akan tampil halaman awal. Pilih Masuk/Daftar yang terletak pada pojok kiri atas Selanjutnya pilih Masuk. Pilih jenis Identitas, masukan NIK/NOKA sesuai jenis identitas yang dipilih, masukan Password dan Captcha, lalu klik MASUK."
+  },
+  {
+    "question": "Bagaimana masuk Mobile JKN dengan fingerprint atau face recognition",
+    "expected_chunk_id": "akun-mobile-jkn-001",
+    "ground_truth": "Untuk melakukan login Biometrik, klik tombol sidik jari disamping tombol Sign In. Login biometric ini hanya bisa dilakukan apabila sudah diaktifkan, dengan cara login terlebih dulu lalu masuk ke menu profil. Ubah ke ON pada pilihan Login dengan Biometrik lalu akan muncul syarat dan ketentuan aktivasi biometric login, setuju dan lanjutkan. Kemudian masukan password login user tersebut. Klik Verification button untuk melanjutkan. Masukan password untuk mendaftarkan biometrik. Apabila berhasil status login dengan biometric akan berubah ke ON.Selanjutnya login sudah dapat dilakukan menggunakan biometric yang terdaftar pada perangkat tersebut, baik fingerprint maupun face recognition"
+  },
+  {
+    "question": "Bagaimana mengubah kata sandi yang lupa?",
+    "expected_chunk_id": "akun-mobile-jkn-002",
+    "ground_truth": "Pada halaman login, plih fitur lupa kata sandi. Setelah itu masukkan NIK, Captcha anda kemudian lanjut dengan klik “Lanjut”. Kemudian pengguna memilih opsi(SMS/E-Mail/Pertanyaan Data Pribadi) untuk mendapatkan passwordnya kembali"
+  },
+  {
+    "question": "Bagaimana mendaftar sebagai pengguna baru Mobile JKN?",
+    "expected_chunk_id": "akun-mobile-jkn-003",
+    "ground_truth": "Langkah pertama yang anda lakukan saat masuk kedalam aplikasi MOBILE JKN yaitu dengan tap tombol daftar. Setelah form pendaftaran ditampilkan, isi form pendaftaran berdasarkan sesuai kebutuhan yang diminta : a. Input Nomor Induk Kependudukan, b. Input Nama, c. Input Tanggal Lahir, d. Input Captcha. Setelah sudah tap verifikasi data, lalu anda akan dilanjutkan pada form lanjutan pendaftaran. Tap input nomor handphone, input nomor hp lalu tap kirim kode verifikasi. Muncul halaman syarat dan ketentuan, tap checklist saya setuju, tap selanjutnya. Pada halaman verifikasi OTP No. Handphone, kode otp akan dikirimkan ke handphone anda , input kode OTP ke form verifikasi OTP. Setelah semua berhasil di input, tap registrasi untuk menyelesaikan registrasi Anda akan diarahkan ke halaman utama tetapi status anda belum terdaftar menjadi peserta JKN"
+  },
+  {
+    "question": "Bagaimana cara mengubah pin akun?",
+    "expected_chunk_id": "akun-mobile-jkn-004",
+    "ground_truth": "Pada menu home, arahkan view anda ke bagian profile, kemudian tap profile. Kemudian ketika anda sudah masuk ke menu profile, tap ubah pin. Masukan PIN anda saat ini, kemudian tap verifikasi. Masukan PIN baru, tap verifikasi lalu tap setuju. Kemudian muncul pop up bahwa pin sudah sukses diperbaharui"
+  },
+  {
+    "question": "Bagaimana cara mengubah kata sandi akun?",
+    "expected_chunk_id": "akun-mobile-jkn-005",
+    "ground_truth": "Pada menu home, arahkan view anda ke bagian profile, kemudian tap profile. Kemudian ketika anda sudah masuk ke menu profile, tap ubah kata sandi. Lalu silahkan Isi Form ubah kata sandi yang disediakan dengan mengisi password lama, password baru, konfirmasi password baru, dan captcha kemudian tap simpan. Kemudian muncul pop-up bawah kata sandi berhasil diubah lalu anda akan re-login Mobile JKN"
+  },
+  {
+    "question": "Bagaimana menyimpan akun yang sebelumnya sudah pernah login?",
+    "expected_chunk_id": "akun-mobile-jkn-006",
+    "ground_truth": "Setelah anda login MOBILE JKN, buka menu Profil. Terdapat fitur Simpan Data Username, aktifkan dengan klik tombol Off/on di sebelahnya, tap untuk mengaktifkan. Setelah berhasil mengaktifkan, pada halaman login akan otomatis terisi dengan no. kartu peserta terakhir yang diaktifkan fitur Simpan Data Usernamenya"
+  },
+  {
+    "question": "Bagaimana cara mengaktifkan notifikasi Mobile JKN? ",
+    "expected_chunk_id": "akun-mobile-jkn-007",
+    "ground_truth": "Silahkan masuk ke menu profil. Setelah masuk ke menu profil, geser button di baris notifikasi untuk diaktifkan. Fitur notifikasi anda berhasil diaktifkan"
+  },
+  {
+    "question": "Bagaimana melihat notifikasi yang dulu pernah dikirim?",
+    "expected_chunk_id": "akun-mobile-jkn-008",
+    "ground_truth": "Tap gambar lonceng untuk melihat dafat lis notifikasi pada Mobile JKN. Disini anda dapat melihat semua notifikasi yang pernah dikirimkan oleh aplikasi MOBILE JK"
+  },
+  {
+    "question": "Bagaimana cara logout dari aplikasi Mobile JKN?",
+    "expected_chunk_id": "akun-mobile-jkn-009",
+    "ground_truth": "Dengan cara masuk ke menu lainnya lalu tap menu keluar.Ketika muncul pop-up veriikasi Tap Setuju.Ketika anda sukses untuk mengeluarkan akun dari aplikasi, anda akan dikembalikan ke landing page Mobile JKN"
+  },
+  {
+    "question": "Bagaimana mendaftar sebagai peserta JKN?",
+    "expected_chunk_id": "administrasi-jkn-000",
+    "ground_truth": "Pada halaman utama, tap menu pendaftaran peserta baru. Anda diharapkan untuk membaca syarat dan ketentuan yang diberikan oleh pihak BPJS Kesehatan, jika anda sudah membaca tap selanjutnya. Kemudian Masukan nomor KK, lalu masukan Captcha. Jika sudah tap lanjut. Lalu tap tambah. Pada form pendaftaran peserta, diharapkan anda berhati-hati dalam mengisi form yang ditampilkan. Jika sudah tap simpan. Pilih kelas rawat inap. Setelah sudah secara otomatis akan memunculkan Iuran per jiwa, dan Iuran satu keluarga. Masukan email dan nomor telpon untuk diverifikasi. Langkah ini merupakan verifikasi OTP nomor handphone, input OTP yang dikirimkan ke hp anda, lalu tap verifikasi. Setelah semua sudah terisi dengan benar dan valid, tap selanjutnya. Kemudian anda akan dilanjutkan ke halaman persetujuan perserta. Baca dengan teliti, setelah sudah tap selanjutnya. Pendaftaran telah berhasil, anda diberikan informasi terkait virtual account untuk pembayaran tagihan peserta, virtual account dikirimkan ke email anda yang terdaftar dan terintegrasi dengan mobile JKN."
+  },
+  {
+    "question": "Bagaimana menambah anggota keluarga sebagai peserta JKN?",
+    "expected_chunk_id": "administrasi-jkn-001",
+    "ground_truth": "Berikut merupakan langkah yang harus diikuti untuk mendaftarkan anggota keluarga sebagai peserta JKN.Penambahan Anggota Keluarga hanya berlaku pada segmen:- PBPU/BP Perorangan(eksisting),- BP Penyelenggara Negara (Baru),- PPU (Baru).Pendaftaran Bayi Baru Lahir(BBL) hanya berlaku untuk segmen kepesertaan PBI JK (PBI APBN).Untuk cara pendaftarannya sama dengan Pendaftaran Peserta Baru seperti yang dijelaskan pada bab sebelumnya. Syarat utama pendaftaran peserta pada Mobile JKN ialah calon peserta yang akan ditambahkan harus sudah memiliki NIK/E-KTP. Dari sistem akan melakukan pengecekan pada NIK yang terinput dan akan melakukan serangkaian validasi sehingga dapat membaca apakah NIK tersebut akan dilakukan Pendaftaran Peserta Baru Satu Keluarga / Penambahan Anggota Keluarga / Pendaftaran Bayi Baru Lahir. Berikut contoh screenshot pada pencarian NIK apabila terbaca untuk melakukan penambahan anggota keluarga, terdapat informasi anggota mana yang sudah terdaftar dan mana yang akan didaftarkan Pada pengisian formulir di step terakhir, khusus penambahan anggota keluarga pada segmen non Mandiri (PBPU/BP Perorangan) termasuk Pendaftaran BBL (segmen PBI JK) tidak mengisi formulir bagian Kelas Rawat dan Rekening. Kelas Rawat akan otomatis terisi sesuai dengan kelas rawat Peserta, sehingga tampilannya akan seperti berikut :CATATAN - Pada penambahan anggota keluarga apabila dalam satu KK terdapat 2 segmen kepesertaan yang berbeda, maka keluarga yang belum terdaftar akan mengikuti rules berikut- Jika menggunakan fitur Pendaftaran Sebelum Login  anggota keluarga yang akan ditambahkan akan didaftarkan sebagai keluarga baru dengan segmen kepesertaan PBPU- Jika Login namun bukan user keluarga yang bersangkutan  hasilnya sama dengan kondisi sebelum login, yaitu anggota keluarga yang akan ditambahkan akan didaftarkan sebagai keluarga baru dengan segmen kepesertaan PBPU- Jika Login dengan login user keluarga yang bersangkutan  anggota keluarga yang akan ditambahkan mengikuti segmen kepesertaan keluarga yang login Mobile JKN- Untuk kondisi apabila anggota keluarga yang didaftarkan menjadi keluarga baru dengan segmen kepesertaan PBPU maka yang menjadi Peserta dalam keluarga tersebut mengacu pada prioritas berikut (berdasarkan data Dukcapil setelah proses identik): a. Kepala Keluarga b. Istri/Suami, Anak tertua berdasarkan tanggal kelahiran c. Famili Lain/Mertua Usia Tertua, Jika Anak sebagai Peserta maka anak yang lain dan anggota keluarga yang lain disimpan sebagai Keluarga Tambahan di masterfile kepesertaan"
+  },
+  {
+    "question": "Bagaimana cek keaktifan dan informasi JKN anggota keluarga?",
+    "expected_chunk_id": "administrasi-jkn-002",
+    "ground_truth": "Langkah pertama, pada halaman utama tap menu info peserta. Setelah anda tap menu info peserta, anda dapat melihat informasi mengenai nama peserta, status kepesertaan, No. JKN, Tanggal lahir, dan tingkat fasilitas kesehatan."
+  },
+  {
+    "question": "Bagaimana cara pengguna melakukan pengaduan terhadap pelayanan JKN?",
+    "expected_chunk_id": "administrasi-jkn-003",
+    "ground_truth": "Langkah pertama, pilih menu pengaduan Layanan JKN.Pilih anggota keluarga yang ingin mengajukan pengaduan layanan JKN lalu klik tombol (+) dipojok kanan bawah. Setelah itu akan muncul Formulir Informasi dan Pengaduan. Isi formulir tersebut, untuk kategori terdapat 2 yaitu Pengaduan Keluhan dan Permintaan Informasi, pilih sesuai yang dibutuhkan. Apabilsa sudah terisi semua kemudian klik Laporkan. Permintaan Informasi/Pengaduan Keluhan yang diajukan akan muncul pada halaman Pengaduan Layanan JKN. Klik untuk melihat Detail Aduan. Apabila Permintaan Informasi/Pengaduan Keluhan yang dikirim masih berstatus Open yang artinya belum ditanggapi oleh Kantor Cabang, user dapat menghapus pengaduan tersebut ketika dirasa masalahnya sudah teratasi. Klik Hapus Keluhan pada Detail Keluhan lalu klik Setuju Apabila sudah mendapatkan balasan dari Kantor Cabang maka status aduan akan berubah menjadi Penanganan. Klik untuk melihat tanggapan dari Kantor Cabang. User dapat membalas dengan klik tombol Tanggapan, isikan pesan balasannya lalu klik tombol Tanggapan untuk mengirim. Status aduan akan berubah menjadi proses. Apabila keluhan yang diadukan dirasa sudah teratasi, user dapat menutup keluhan dengan klik Selesai Selesai, status pengaduan akan berubah menjadi Closed. Sebagai informasi tambahan, apabila tanggapan dari Kantor Cabang tidak dibalas atau ditutup oleh user, setelah 5 hari aduan akan otomatis berubah status menjadi Closed."
+  },
+  {
+    "question": "Bagaimana mengubah NIK dan nama anggota keluarga",
+    "expected_chunk_id": "administrasi-jkn-004",
+    "ground_truth": "Perubahan NIK diperuntukan untuk peserta bayi baru lahir dengan NIK yang sudah terdaftar pada Dukcapil."
+  },
+  {
+    "question": "Bagaimana mengubah segmen kepesertaan?",
+    "expected_chunk_id": "administrasi-jkn-005",
+    "ground_truth": "Langkah pertama, pilih menu Ubah Data Peserta. Terdapat pilihan baru yaitu Segmen Peserta, pilihan ini hanya akan muncul untuk pengguna Mobile JKN dengan segmen diluar PBPU. Pilih Segmen Peserta. Pengalihan segmen Peserta hanya dapat dilakukan dalam kondisi status peserta Nonaktif Aktif di Akhir Bulan (Nonaktif di Akhir Bulan dalam N+1, atau Nonaktif di Akhir Bulan lebih dari N+1). Dan apabila sebelumnya memiliki riwayat tunggakan PBPU sebelum pindah ke segmen PPU/PBI/PD Pemda maka tidak bisa pindah ke PBPU sebelum melunasi tunggakan iuran PBPU-nya. Apabila sudah memenuhi syarat untuk ubah segmen kepesertaan, selanjutnya peserta dapat melakukan pendaftaran Autodebit. Pilih Lanjut Pendaftaran Autodebit maka akan muncul pilihan Autodebit yang akan digunakan. Piih Bank atau NonBank yang dimiliki untuk didaftarkan Autodebit. Selanjutnya akan muncul Agreement Autodebit dan Formulir pendaftaran Autodebit. Isi formulir tersebut lalu pilih Daftar Autodebit, masukan OTP yang terkirim ke nomor yang sudah didaftarkan SMS Banking. Apabila berhasil mendaftar Autodebit, pilih Lanjut Ubah Segmen maka akan muncul formulir perubahan segmen. Isi formulir tersebut dan centang checklist persetujuan ubah segmen lalu klik Simpan. Setelah itu akan terkirim OTP ke email/sms peserta, masukan OTP lalu pilih Verifikasi. Peserta berhasil melakukan perubahan segmen ke PBPU. Catatan : Untuk pengalihan segmen PD Pemda ke PBPU baru dapat dilakukan setelah minimal 1 tahun terdaftar di PD Pemda yang sama, kecuali domisili/alamat Dati2 KTP sudah berbeda dengan Dati2 sesuai PKS PD Pemda."
+  },
+  {
+    "question": "Bagaimana mengubah nomor hp yang terdaftar?",
+    "expected_chunk_id": "administrasi-jkn-006",
+    "ground_truth": "Langkah pertama, tap menu Home > menu Lainnya > tap fitur “ubah data peserta”, maka secara otomatis akan tampil data peserta dalam satu keluarga. Lakukan pemilihan data peserta terlebih dahulu untuk peserta yang akan dilakukan perubahan data. Tap no handphone untuk melakukan perubahan no handphone peserta, maka sistem akan menampilkan pop-up untuk melakukan pengisian data no handphone peserta.. Lakukan pengisian data No Handphone dan tap tombol simpan. Ketika memilih tombol simpan, maka secara otomatis sistem akan mengirimkan kode verifikasi pada email peserta tersebut dan sistem menampilkan popup untuk pengisian kode verifikasi. Buka email yang terdaftar untuk mendapatkan no verifikasi perubahan data no handphone dan lakukan pengisian kode verifikasi pada popup yang ditampilkan Jika verifikasi tersebut berhasil dilakukan maka sistem menampilkan pesan pemberitahuan jika perubahan data berhasil"
+  },
+  {
+    "question": "Bagaimana mengubah email yang terdaftar?",
+    "expected_chunk_id": "administrasi-jkn-007",
+    "ground_truth": "Langkah pertama, tap menu Home > menu Lainnya > tap fitur “ubah data peserta”, maka secara otomatis akan tampil data peserta dalam satu keluarga. Lakukan pemilihan data peserta terlebih dahulu untuk peserta yang akan dilakukan perubahan data. Anda diminta untuk mengisi Form perubahan Email. Lalu Tap Verifikasi. Cek Email anda untuk verifikasi email yang akan anda gunakan. Lalu Tap Simpan"
+  },
+  {
+    "question": "Bagaimana mengubah fasilitas kesehatan tingkat pertama?",
+    "expected_chunk_id": "administrasi-jkn-008",
+    "ground_truth": "Langkah pertama, tap menu Home > menu Lainnya > tap fitur “ubah data peserta”, maka secara otomatis akan tampil data peserta dalam satu keluarga. Lakukan pemilihan data peserta terlebih dahulu untuk peserta yang akan dilakukan perubahan data. Tap Faskes 1 untuk melakukan perubahan faskes 1 peserta, maka sistem akan menampilkan popup untuk melakukan pengisian data faskes 1 peserta, lakukan pengisian data faskes 1 dan tap tombol simpan. Bisa dilakukan perubahan faskes 1 secara kolektif dengan mencentang checklist “Perubahan satu keluarga”, namun checklist tersebut tidak akan muncul pada user peserta dengan Segmen Prajurit TNI dan Kepolisan RI Non PNS karena pada segmen tersebut yang dapat melakukan perubahan FKTP hanya Anggota Keluarganya saja. Ketika memilih tombol simpan, maka secara otomatis sistem akan mengirimkan kode verifikasi pada email peserta tersebut dan sistem menampilkan popup untuk pengisian kode verifikasi. Setelah itu user akan diminta untuk memasukan PIN yang telah dibuat. Notifikasi sukses perubahan data FASKES akan muncul setelah sukses dalam pengisian PIN>. Berikut ialah segmen kepesertaan apa saja yang dapat melakukan perubahan FKTP : PBPU, PPU-PN, Prajurit TNI Dan Kepolisian RI (Hanya Anggota Keluarga), PPU Swasta, PBI APBN, BP PN & BP Perorangan. Catatan :Perubahan FKTP sebelum 3 bulan dapat dilakukan peserta apabila sebelumnya peserta tersebut dilakukan pemindahan FKTP melalui Redistribusi FKTP dan masih dalam rentang 3 bulan"
+  },
+  {
+    "question": "Bagaimana mengubah alamat surat yang terdaftar?",
+    "expected_chunk_id": "administrasi-jkn-009",
+    "ground_truth": "Langkah pertama, tap menu Home > menu Lainnya > tap fitur “ubah data peserta”, maka secara otomatis akan tampil data peserta dalam satu keluarga. Lakukan pemilihan data peserta terlebih dahulu untuk peserta yang akan dilakukan perubahan data. Tap alamat surat untuk melakukan perubahan alamat surat peserta, maka sistem akan menampilkan popup untuk melakukan pengisian data alamat surat peserta. Lakukan pengisian data alamat surat dan tap tombol simpan. Ketika memilih tombol simpan, maka secara otomatis sistem akan menampilkan halaman masukkan pin sebagai media verifikasi user. Setelah klik simpan, muncul pop up bahwa alamat email berhasil diubah"
+  },
+  {
+    "question": "Bagaimana mengubah kelas rawat?",
+    "expected_chunk_id": "administrasi-jkn-010",
+    "ground_truth": "Langkah pertama, tap menu Home > menu Lainnya > tap fitur “ubah data peserta”, maka secara otomatis akan tampil data peserta dalam satu keluarga. Lakukan pemilihan data peserta terlebih dahulu untuk peserta yang akan dilakukan perubahan data. Pilih kelas rawat, tiap kelas rawat memiliki otomasi untuk perhitungan iuran Per Jiwa, dan iuran satu keluarga. Ketika anda sudah selesai untuk melakukan perubahan kelas rawat, tap simpan. Setelah tap simpan, anda akan dialihkan untuk verifikasi user melalui input pin user. Setelah melakukan verifikasi, muncul pop bahwa kelas rawat telah berhasil diubah"
+  },
+  {
+    "question": "Bagaimana cara menampilkan KIS digital?",
+    "expected_chunk_id": "administrasi-jkn-011",
+    "ground_truth": "Pada halaman utama, tap kartu peserta. Lalu anda akan dialihkan ke halaman kartu peserta"
+  },
+  {
+    "question": "Bagaimana mengirim KIS digital ke email yang terdaftar?",
+    "expected_chunk_id": "administrasi-jkn-012",
+    "ground_truth": "Pada halaman utama, tap kartu peserta. Kemudian anda dialihkan ke halaman kartu peserta, jika anda ingin menirim kartu digital ke email anda, tap kirim email"
+  },
+  {
+    "question": "Bagaimana mengambil antrian pada fasilitas kesehatan tingkat pertama?",
+    "expected_chunk_id": "pelayanan-jkn-000",
+    "ground_truth": "Fitur pendaftaran pelayanan digunakan untuk peserta lebih mudah dalam mengambil antrean di FKTP terdaftar yang terintegrasi dengan Aplikasi Antrean Faskes dan Aplikasi Pcare. Adapun tata cara dalam penggunaan fitur ini adalah sebagai berikut: Pilih Menu Home, maka aplikasi akan menampilkan beberapa sub menu diantaranya sub menu Pendaftaran Pelayanan. Pilih dan tap menu Pendaftaran Pelayanan, maka akan tampil halaman untuk peserta dapat mengambil no antrean pada FKTP terdaftar. a. FKTP tersebut sudah terdaftar menggunakan aplikasi Antrean Faskes dimana Kantor Cabang harus melakukan update profil faskes terkait ketersediaan sistem Antrean BPJS Kesehatan. b. Kantor cabang harus melakukan update jadwal praktik agar peserta dapat melakukan pengambilan no antrean sesuai dengan jadwal praktik dari FKTP tersebut. c. Peserta yang akan melakukan pengambilan no antrean harus memiliki status aktif. Lakukan pemilihan peserta dan poli yang akan dilakukan pemeriksaan dan tuliskan keluhan yang dialami. Pilih tombol daftar pelayanan untuk mendapatkan no antrean sesuai dengan poli peserta. Lakukan refresh untuk melihat sisa antrean yang sedang dilayani dari faskes tersebut. Jika akan dilakukan pembatalan antrean maka klik tombol “Batalkan” dan untuk melakukan ambil antrean baru klik tombol “Ambil Antrean Baru”"
+  },
+  {
+    "question": "Bagaimana mengambil antrian pada fasilitas kesehatan tingkat lanjut?",
+    "expected_chunk_id": "pelayanan-jkn-001",
+    "ground_truth": "Pilih Fasilitas Kesehatan untuk memilih FKTP yang akan dituju, apabila FKTP peserta tersebut DPP maka akan muncul pilihan Dokter Gigi terdaftar. Pilih Poli maka akan menampilkan Poli yang tersedia pada FKTP tersebut, pilih Poli yang akan dituju. Pilih Tanggal Daftar untuk menentukan kapan akan mengunjungi FKTP tersebut, nomor antrean dapat diambil pada Hari ini atau Besok. Pilih Jadwal Praktik akan menampilkan daftar dokter beserta jadwal shiftnya, sehingga peserta dapat memilih sendiri kapan shift yang sesuai dengan waktunya."
+  },
+  {
+    "question": "Bagaimana melakukan konsultasi dengan dokter melalui Mobile JKN?",
+    "expected_chunk_id": "pelayanan-jkn-002",
+    "ground_truth": "Tap icon Konsultasi Dokter dari menu Home. Untuk memulai percakapan pilih Mulai Konsultasi atau klik tombol biru di pojok kanan bawah. Setelah itu pilih dokter yang ingin dilakukan konsultasi kesehatan. Hanya dokter yang berstatus online yang bisa dilakukan konsultasi, yang bersattus offline akan menampilkan jadwal online terdekatnya. Sampaikan keluhan sebagai pembuka percakapan/konsultasi, lalu pilih Mulai Chat, Maka akan membuat sesi chat. Setelah konsultasi dirasa cukup maka klik End, peserta akan diminta mengisi rating untuk sesi chat tersebut. Beri penilaian pada sesi konsultasi dengan memilih jumlah bintang sesuai kepuasan dari user, dan berikan komentar anda. Lalu klik “Ya”. Pop Up Notification akan ditampilkan. Di menu Konsultasi Dokter, peserta bisa melihat riwayat sesi chatnya dengan meng-klik tombol riwayat di pojok kanan. Klik Sesi Chat tersebut untuk melihat detail percakapannya"
+  },
+  {
+    "question": "Bagaimana melihat jadwal operasi saya?",
+    "expected_chunk_id": "pelayanan-jkn-003",
+    "ground_truth": "Klik Menu Lainnya. Klik Info Jadwal Tindakan Operasi"
+  },
+  {
+    "question": "Bagaimana melihat jadwal operasi tersedia dari rumah sakit?",
+    "expected_chunk_id": "pelayanan-jkn-004",
+    "ground_truth": "Pilih Tab Jadwal Operasi Rumah Sakit untuk melihat seluruh Jadwal Rumah Sakit yang ada. Lakukan pencarian rumah sakit yang ingin diketahu informasinya, apabila terdapat jadwalnya makan akan muncul, namun jika tidak aka nada informasi Data Jadwal Operasi yang anda cari tidak ditemukan"
+  },
+  {
+    "question": "Bagaimana melakukan skrining riwayat kesehatan?",
+    "expected_chunk_id": "pelayanan-jkn-005",
+    "ground_truth": "Langkah pertama Tap icon Skrining Riwayat kesehatan dari menu Home lalu ke Menu Lainnya.Pilih No. Kartu BPJS yang ingin ditampilkan data skrining riwayat kesehatan. Jika sudah pernah melakukan skrining dan belum lewat 1 (satu) tahun, akan tampil hasil skrining terakhir, jika belum pernah melakukan skrining atau sudah pernah tetapi sudah lewat 1 (satu) tahun, akan masuk menu skrining"
+  },
+  {
+    "question": "Bagaimana melihat riwayat layanan peserta?",
+    "expected_chunk_id": "pelayanan-jkn-006",
+    "ground_truth": "Langkah pertama, Tap menu lainnya lalu tap Info Riwayat Pelayanan. Informasi riwayat pelayanan ditampilkan"
+  },
+  {
+    "question": "Bagaimana melihat ketersediaan tempat tidur di rumah sakit?",
+    "expected_chunk_id": "pelayanan-jkn-007",
+    "ground_truth": "Fitur ini berfungsi untuk mempermudah user dalam mencari ketersediaan tempat tidur RS. Anda dapat melihan seberapa jauh rumah sakit dan mendapatkan informasi tambahan berupa no. telpon, dan alamat RS. Fitur ini dapat dilihan di menu lainnya dengan tap Info Ketersediaan Tempat Tidur."
+  },
+  {
+    "question": "Bagaimana melihat knformasi iuran yang harus dibayar?",
+    "expected_chunk_id": "iuran-kepesertaan-000",
+    "ground_truth": "Pengguna terlebih dahulu tap Info iuran. Informasi terkait status iuran akan ditampilkan"
+  },
+  {
+    "question": "Bagaimana melakukan pendaftaran Autodebet untuk bank?",
+    "expected_chunk_id": "iuran-kepesertaan-001",
+    "ground_truth": "Fitur autodebet dikhususkan untuk Peserta Mandiri(PBPU)/Bukan Pekerja(BP). BRI:- Tap BRI kemudian lanjut ke syarat dan ketentuan lalu tap checklist button > tap selanjutnya. - Pada saat dihalaman muncul tagihan peserta, tap daftar autodebet. - Selanjutnya dengan pengisian form pendaftaran autodebet BRI dengan mengisi nomor rekening, nama pemilik rekening, dan nomor handphone. Setelah selesai tap daftar autodebet. - Setelah selesai dan sukes, maka akan muncul halaman pemberitahuan bahwa akun anda telah terdaftar dengan Bank BRI.MANDIRI: - Tap Mandiri kemudian lanjut ke syarat dan ketentuan lalu tap checklist button > tap selanjutnya. - Pada menu Tagihan terdapat sub menu pendaftaran auto debit yang berguna untuk mendaftarkan auto debit untuk satu keluarga. - Pilih menu Bank Mandiri untuk mendaftarkan auto debit melalui Bank Mandiri, dimana akan tampil informasi syarat dan ketentuan yang harus dilakukan persetujuan. - Klik tombol Saya Setuju untuk menyetujui syarat dan ketentuan yang berlaku pada saat pendaftaran auto debit Bank Mandiri, maka akan tampil data perkiraan biaya yang akan dilakukan pendebitan setiap bulannya. - Klik tombol daftar auto debit untuk mendaftarkan peserta auto debit Bank Mandiri untuk satu keluarga, masukkan data no rekening, nama rekening dan no handphone yang digunakan. - Setelah data lengkap dan sesuai klik tombol daftar auto debit, maka akan tampil kotak dialog untuk mengisikan OTP yang telah dikirimkan oleh Bank Mandiri ke no handphone yang terdaftar dengan no rekening.- Masukan data OTP tersebut. - Pastikan OTP yang dimasukkan sudah sesuai dengan SMS OTP yang telah dikirimkan, kemudian klik tombol Verifikasi untuk proses penyimpanan data auto debit. BCA :- Tap BCA kemudian muncul halaman syarat dan ketentuan pendaftaran auto debit bank BCA, tap checklist button > tap selanjutnya. - Setelah tap selanjutnya, lalu anda akan dihadapkan dengan ketentuan autodebet BCA, tap setuju. - Masukkan Nomor Kartu Debit BCA, maka akan secara otomatis mengisi Nomor Rekening dan Nomor Ponsel yang terdaftar pada SMS Banking. Pilih Setuju. - Masukan OTP. - Pendaftaran Autodebit melalui Bank BCA berhasil. BTN : - Pilih menu Bank BTN untuk mendaftarkan auto debit melalui Bank BTN, dimana akan tampil informasi syarat dan ketentuan yang harus dilakukan persetujuan. - Klik tombol Saya Setuju untuk menyetujui syarat dan ketentuan yang berlaku pada saat pendaftaran auto debit Bank BTN, maka akan tampil data perkiraan biaya yang akan dilakukan pendebitan setiap bulannya. - Klik tombol daftar auto debit untuk mendaftarkan peserta auto debit Bank BTN untuk satu keluarga, masukkan data no rekening, nama rekening dan no handphone yang digunakan.. - Setelah data lengkap dan sesuai klik tombol daftar auto debit, maka akan tampil kotak dialog untuk mengisikan OTP yang telah dikirimkan oleh Bank BTN ke no handphone yang terdaftar dengan no rekening. - Pastikan OTP yang dimasukkan sudah sesuai dengan SMS OTP yang telah dikirimkan, kemudian klik tombol Verifikasi untuk proses penyimpanan data auto debit"
+  },
+  {
+    "question": "Bagaimana melakukan pendaftaran autodebet untuk nonbank?",
+    "expected_chunk_id": "iuran-kepesertaan-002",
+    "ground_truth": "Fitur autodebet ini dikhususkan untuk Peserta Mandiri(PBPU)/Bukan Pekerja(BP). Berikut langkah yang harus anda lakukan untuk mendaftar AUTODEBET.NON-BANK. DOKU WALLET: - Lakukan login pada aplikasi Mobile JKN kemudian pilih pendaftaran auto debit yang berguna untuk mendaftarkan auto debit untuk satu keluarga. - Pilih Doku Wallet. - Masukkan No Handphone untuk pengiriman OTP. Sebagai informasi, pendaftaran menggunakan DOKU Wallet ini bisa dilakukan baik yang sudah ataupun belum memiliki akun DOKU Wallet. Apabila belum memiliki akun DOKU Wallet maka akan terdaftar akun DOKU Wallet setelah berhasil mendaftar Autodebit.. - Masukan OTP. - Pendaftaran Autodebit melalui DOKU Wallet berhasil, maka pada home page akan muncul widget DOKU Wallet.FINPAY: - Lakukan login pada aplikasi Mobile JKN kemudian pilih Menu Home. - Pada menu Home terdapat sub menu pendaftaran auto debit yang berguna untuk mendaftarkan auto debit untuk satu keluarga. - Pilih menu Mobile Cash untuk mendaftarkan auto debit Mobile Cash, masukkan Nomor handphone yang terdaftar mobile cash atau yang akan didaftarkan mobile cash untuk dapat dilakukan pendebitan setiap bulannya untuk satu keluarga. - Lakukan centang pada persetujuan dan ketentuan yang berlaku untuk mendaftarkan auto debit. - Klik tombol Lanjut, maka akan tampil halaman untuk mengisikan OTP yang terkirim pada no handphone yang telah dimasukkan sebelumnya. - Lakukan pengecekan pada SMS OTP yang telah dikirimkan oleh Finpay. - Masukkan kode OTP yang diterima tersebut untuk melakukan verifikasi, waktu yang diberikan untuk verifikasi tersebut adalah 60 detik. Jika waktu verifikasi telah habis peserta dapat menggunakan fungsi kirim ulang sms yang terdapat pada tombol halaman verifikasi.. - Jika verifikasi sudah sesuai maka pendaftaran autodebit menggunakan mobile cash berhasil dilakukan dengan informasi sebagai berikut. Pastikan saldo Mobile Cash telah tersedia untuk setiap bulannya dapat dilakukan pendebitan. I. SAKU. - Pilih I. Saku. - Masukkan No Handphone untuk pengiriman OTP. Sebagai informasi, pendaftaran menggunakan i-Saku ini hanya bisa dilakukan menggunakan Nomor HP yang sudah terdaftar/memiliki akun i-Saku. - Masukan OTP. - Pendaftaran Autodebit melalui i-Saku berhasil, maka pada home page akan muncul widget i-Saku"
+  },
+  {
+    "question": "Bagaimana melihat riwayat pembayaran?",
+    "expected_chunk_id": "iuran-kepesertaan-003",
+    "ground_truth": "Tap Info riwayat pembayaran pada menu lainnya lalu anda akan ditampilka riwayat pembayaran anda"
+  },
+  {
+    "question": "Bagaimana melihat VIRTUAL ACCOUNT peserta?",
+    "expected_chunk_id": "iuran-kepesertaan-004",
+    "ground_truth": "Tap menu lainnya, selanjutnya Tap Info Virtual Account. Kemudian halaman info virtual account akan dimuat"
+  },
+  {
+    "question": "Bagaimana mendaftar program rehab?",
+    "expected_chunk_id": "iuran-kepesertaan-005",
+    "ground_truth": "Fitur Rencana Pembayaran Bertahap merupakan program yang disediakan bagi peserta PBPU dan Bukan Pekerja dengan tunggakan lebih dari 3 bulan (4 s.d 24 bulan) untuk dapat melakukan pembayaran tunggakan secara bertahap/mencicil. Berikut merupakan langkah yang harus dilakukan. Pada menu Home, pilih Rencana Pembayaran Bertahap (REHAB) maka akan muncul informasi awal mengenai program REHAB, klik Lanjut.Selanjutnya akan muncul informasi mengenai Total Tunggakan Satu Keluarga dan Simulasi Tagihan. Klik Selanjutnya maka akan muncul Syarat dan Ketentuan pendaftaran program REHAB, pilih Saya Setuju dan klik Selanjutnya. Setelah itu akan muncul simulasi tagihan pembayaran tunggakan bertahap. Pilih Jangka Waktu Pembayaran Bertahap dan klik Lanjut untuk menampilkan simulasinya. Sesuai dengan Peraturan Presiden Nomor 82 Tahun 2018 bahwa tunggakan yang ditagihkan oleh BPJS Kesehatan kepada Peserta adalah maksimal sebanyak 24 bulan, bagi Peserta yang memiliki tunggakan kurang dari 24 bulan, maka iuran bulan berjalan akan tetap terbentuk dan menjadi penambah tunggakan peserta hinga maksimal 24 bulan. Selanjutnya, setelah peserta menyelesaikan proses pemilihan jangka waktu pembayaran tunggakan, maka akan muncul potensi penambahan tunggakan. Pada menu ini, peserta dapat memilih untuk langsung melakukan pembayaran secara penuh atau pembayaran bertahap dengan jangka waktu maksimal 3 bulan terhadap potensi penambahan tagihan tersebut. Setelah memilih jangka waktu penyelesaian tunggakan, peserta dapat memilih tombol Daftar. Pastikan e-mail sudah sesuai, apabila data e-mail belum sesuai, maka dapat dilakukan perubahan pada menu Ubah Data, apabila sudah sesuai maka klik Setuju. Setelah itu akan muncul Syarat & Ketentuan terkait OTP, pilih Selanjutnya dan masukkan OTP (OTP akan dikirimkan melalui SMS). Setelah berhasil, pada menu Home, pilih Rencana Pembayaran Bertahap (REHAB) maka akan muncul informasi awal mengenai program REHAB, klik Lanjut. Bagi peserta yang sudah mendaftar program REHAB maka akan ditampilkan informasi mengenai: Status pendaftaran, tanggal pendaftaran, besaran tunggakan saat mendaftar, dan besaran tunggakan yang akan dibayarkan setiap bulannya. Fitur Hitung Potensi Tagihan Bulan Berjalan untuk melihat potensi penambahan tunggakan selama peserta mengikuti program REHAB.Apabila peserta ingin melakukan pelunasan, maka pilih fitur Pelunasan Program, yang selanjutnya akan muncul ketentuan pelunasan program REHAB beserta nominal yang harus dibayar (total dari tunggakan dan tagihan bulan berjalan). Lalu Pilih Alasan Pelunasan dan klik Setuju"
+  },
+  {
+    "question": "Bagaimana melihat artikel hidup sehat?",
+    "expected_chunk_id": "lain-lain-000",
+    "ground_truth": "Arahkan view anda pada grup artikel, lalu tap lihat semua untuk masuk kedalam halaman artikel. Setelah anda masuk kedalam halaman artikel, anda dapat memilih berita terbaru atau dengan melakukan pencarian melalui search bar yang disediakan"
+  },
+  {
+    "question": "Bagaimana melihat Frequently Asked Question?",
+    "expected_chunk_id": "lain-lain-001",
+    "ground_truth": "Fitur ini merupakan menu yang berisi konten berupa kumpulan pertanyaan dari peserta jaminan kesehatan, sehingga dengan adanya FAQ pengguna lain yang memiliki pertanyaan serupa dapat melihat jawaban yang diharapkan di menu ini. Tap menu FAQ yang ada pada menu bagian bawah, kemudian anda langsung dapat mencari pertanyaan yang sering ditanyakan oleh user lain terkait pelayanan BPJS Kesehatan. Tap Search Bar jika anda ingin mencari pertanyaan lai"
+  },
+  {
+    "question": "Bagaimana melihat informasi seputar program jaminan kesehatan?",
+    "expected_chunk_id": "lain-lain-002",
+    "ground_truth": "Pada menu lainnya tap info program jkn. Kemudian anda tap pilihan menu anda sesuai dengan kebutuhan anda"
+  },
+  {
+    "question": "Bagaimana melihat informasi lokasi fasilitas kesehatan dan kantor BPJS Kesehatan terdekat?",
+    "expected_chunk_id": "lain-lain-003",
+    "ground_truth": "Pada menu lainnya tap Info Lokasi Faskes. Kemudian peserta dapat memilih rumah sakit berdasarkan pencarian atau rumah sakit terdekat."
+  },
+  {
+    "question": "Bagaimana mengecek Body Mass Index, Basal Metabolic Rate, dan informasi kesehatan lainnya secara mandiri?",
+    "expected_chunk_id": "lain-lain-004",
+    "ground_truth": "Pertama anda masuk ke menu lainnya lalu tap Kalkulator Kesehatan. Kemudian anda Tap tambah data kalkulator kesehatan, kemudian isi form yang disediakan. Form yang diisi harus sesuai dengan pengukuran diri anda. Setelah mengisi form, tap simpan lalu pop sukses akan muncul"
+  }
+
+]

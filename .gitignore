@@ -1,0 +1,31 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Environment variables 
+.env
+
+# Data hasil generate otomatis 
+data/raw/*.json
+data/processed/*.json
+data/metadata.json
+vectorstore/chroma_db/
+
+# Cache evaluasi 
+data/eval/enriched_cache.json
+data/eval/ragas_progress.json
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# OS / Editor
+.DS_Store
+*.log
+
+# Debug/scratch files
+tes.py
+installed_versions.txt
