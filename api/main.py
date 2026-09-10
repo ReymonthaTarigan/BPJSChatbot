@@ -4,7 +4,7 @@ Entrypoint utama FastAPI. Menggabungkan semua router (chat, update, status)
 jadi 1 aplikasi, plus konfigurasi CORS supaya bisa diakses dari frontend
 yang jalan di port/domain berbeda (misal React dev server di localhost:5173).
 """
-from startup import ensure_data_ready
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from api.routes import chat, update, status
@@ -14,9 +14,6 @@ app = FastAPI(
     description="API untuk chatbot panduan Mobile JKN dengan RAG + anti-halusinasi",
     version="1.0.0",
 )
-@app.on_event("startup")
-async def on_startup():
-    ensure_data_ready()
 
 # CORS: mengizinkan frontend (domain/port berbeda) memanggil API ini.
 # Untuk development, kita izinkan semua origin ("*"). Untuk production,

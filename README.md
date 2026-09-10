@@ -203,23 +203,32 @@ bpjs-chatbot/
 
 ---
 
-## 9. Deployment
+## 9. Menjalankan dengan Docker
 
-Proyek ini di-deploy menggunakan Docker untuk memastikan konsistensi environment (khususnya untuk dependency `lxml` yang butuh system library `libxml2`/`libxslt`).
+Proyek ini dikemas menggunakan Docker untuk memastikan konsistensi environment,
+khususnya karena dependency `lxml` membutuhkan system library `libxml2`/`libxslt`
+yang tidak tersedia secara default di banyak environment minimal.
 
-- **Backend**: [URL Render nanti] — Dockerized FastAPI, hosted di Render
-- **Frontend**: [URL Vercel nanti] — React, hosted di Vercel
+### Build & Run
 
-### Menjalankan dengan Docker secara lokal
 \`\`\`bash
 docker build -t bpjs-chatbot .
-docker run -p 8000:8000 -e PORT=8000 -e GROQ_API_KEY=your_key bpjs-chatbot
+docker run -p 8000:8000 -e PORT=8000 -e GROQ_API_KEY=your_api_key_here bpjs-chatbot
 \`\`\`
 
-### Catatan tentang free tier
-Backend di-host pada tier gratis Render, yang memiliki keterbatasan:
-- Server otomatis "sleep" setelah 15 menit tanpa traffic — request pertama setelah idle bisa memakan waktu 30-60 detik untuk "bangun"
-- Disk storage bersifat ephemeral pada beberapa konfigurasi — `startup.py` didesain untuk otomatis menjalankan ulang pipeline scraping jika ChromaDB terdeteksi kosong saat container baru dimulai
+Setelah container berjalan, akses:
+- \`http://localhost:8000/\` — cek API hidup
+- \`http://localhost:8000/docs\` — Swagger UI untuk uji endpoint \`/chat\`, \`/status\`, \`/update-data\`
+
+### Catatan tentang Deployment
+
+Proyek ini secara teknis siap untuk deployment ke platform cloud (Dockerfile sudah
+disertakan dan teruji berjalan lancar secara lokal). Namun, percobaan deployment ke
+beberapa platform gratis (Render, Koyeb, FastAPI Cloud, Hugging Face Spaces) menemui
+kendala non-teknis (kewajiban kartu kredit untuk verifikasi) atau keterbatasan resource
+(limit RAM tier gratis yang tidak mencukupi beban model embedding + PyTorch, sekitar
+900MB–1.2GB saat runtime). Demo dijalankan secara lokal melalui Docker sebagaimana
+instruksi di atas.
 
 ### Cakupan Evaluasi
 - Recall@K: 43/43 pertanyaan (100%, setelah koreksi 1 typo)

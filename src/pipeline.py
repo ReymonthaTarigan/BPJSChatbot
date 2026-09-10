@@ -7,20 +7,7 @@ jadi 1 fungsi ask() yang siap dipanggil dari API backend.
 from src.retrieval.retriever import Retriever
 from src.generation.llm_client import generate_answer, check_groundedness
 
-_retriever_instance = None
-
-def get_retriever():
-    """
-    Lazy-load Retriever: model embedding baru dimuat ke memory saat
-    benar-benar dibutuhkan (request pertama masuk), bukan saat modul
-    ini di-import. Penting untuk platform dengan limit RAM ketat yang
-    melakukan verifikasi/health-check dengan cara import modul terlebih
-    dahulu sebelum server benar-benar menerima traffic.
-    """
-    global _retriever_instance
-    if _retriever_instance is None:
-        _retriever_instance = Retriever()
-    return _retriever_instance
+retriever = Retriever()
 
 
 def ask(query: str) -> dict:
@@ -43,7 +30,6 @@ def ask(query: str) -> dict:
         }
     """
     # --- Lapis 1: Retrieval Gate ---
-    retriever = get_retriever()
     retrieval_result = retriever.retrieve(query)
 
     if not retrieval_result["has_relevant_context"]:
