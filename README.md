@@ -203,6 +203,24 @@ bpjs-chatbot/
 
 ---
 
+## 9. Deployment
+
+Proyek ini di-deploy menggunakan Docker untuk memastikan konsistensi environment (khususnya untuk dependency `lxml` yang butuh system library `libxml2`/`libxslt`).
+
+- **Backend**: [URL Render nanti] — Dockerized FastAPI, hosted di Render
+- **Frontend**: [URL Vercel nanti] — React, hosted di Vercel
+
+### Menjalankan dengan Docker secara lokal
+\`\`\`bash
+docker build -t bpjs-chatbot .
+docker run -p 8000:8000 -e PORT=8000 -e GROQ_API_KEY=your_key bpjs-chatbot
+\`\`\`
+
+### Catatan tentang free tier
+Backend di-host pada tier gratis Render, yang memiliki keterbatasan:
+- Server otomatis "sleep" setelah 15 menit tanpa traffic — request pertama setelah idle bisa memakan waktu 30-60 detik untuk "bangun"
+- Disk storage bersifat ephemeral pada beberapa konfigurasi — `startup.py` didesain untuk otomatis menjalankan ulang pipeline scraping jika ChromaDB terdeteksi kosong saat container baru dimulai
+
 ### Cakupan Evaluasi
 - Recall@K: 43/43 pertanyaan (100%, setelah koreksi 1 typo)
 - RAGAS: 27/42 pertanyaan (dihentikan pada 27 karena keterbatasan kuota API harian tier gratis; dianggap sudah representatif untuk menarik kesimpulan awal dan menemukan pola kegagalan yang bermakna — lihat Temuan #1–#5)

@@ -1,8 +1,8 @@
 """
 startup.py
-Dijalankan sekali saat server pertama kali start di Render. Cek apakah
-ChromaDB sudah punya data; kalau kosong (misal karena disk ephemeral
-di free tier ter-reset), otomatis jalankan pipeline scraping ulang.
+Dijalankan sekali saat server pertama kali start di container. Cek apakah
+ChromaDB sudah punya data; kalau kosong (misal karena disk container
+ter-reset setiap deploy baru), otomatis jalankan pipeline scraping ulang.
 """
 
 import chromadb
