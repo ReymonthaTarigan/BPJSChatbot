@@ -23,7 +23,7 @@ def clean_text(text: str) -> str:
 
 
 def parse_panduan_page(html: str, source_url: str, kategori: str) -> List[Dict]:
-    soup = BeautifulSoup(html, "lxml")
+    soup = BeautifulSoup(html, "html.parser")
     panduan_list = []
 
     faq_section = soup.find("section", id="faq")
